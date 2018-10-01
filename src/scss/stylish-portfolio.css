@@ -107,7 +107,6 @@ h6 {
       .masthead h1 {
         font-size: 5.5rem; } }
 
-/* Side Menu */
 #sidebar-wrapper {
   position: fixed;
   z-index: 2;
@@ -186,6 +185,22 @@ h6 {
     color: #fff; }
   .menu-toggle:hover {
     background: #343a40; }
+
+.service-icon {
+  background-color: gray;
+  color: #1d809f;
+  height: 7rem;
+  width: 7rem;
+  display: block;
+  line-height: 7.5rem;
+  font-size: 2.25rem;
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1); }
+
+.icon-pencil,
+.icon-screen-smartphone,
+.icon-mustache,
+.icon-like {
+  line-height: inherit; }
 
 .callout {
   padding: 15rem 0;
