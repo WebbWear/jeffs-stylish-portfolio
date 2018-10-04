@@ -186,22 +186,6 @@ h6 {
   .menu-toggle:hover {
     background: #343a40; }
 
-.service-icon {
-  background-color: gray;
-  color: #1d809f;
-  height: 7rem;
-  width: 7rem;
-  display: block;
-  line-height: 7.5rem;
-  font-size: 2.25rem;
-  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1); }
-
-.icon-pencil,
-.icon-screen-smartphone,
-.icon-mustache,
-.icon-like {
-  line-height: inherit; }
-
 .callout {
   padding: 15rem 0;
   background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("./img/bg-callout.jpg");
@@ -222,7 +206,7 @@ h6 {
   margin: auto auto 1rem; }
   .portfolio-item .caption {
     display: flex;
-    height: 100%;
+    height: 20%;
     width: 100%;
     background-color: rgba(33, 37, 41, 0.2);
     position: absolute;
@@ -320,3 +304,7 @@ a {
 
 .text-secondary {
   color: #ecb807 !important; }
+
+.re-about {
+  background-color: #f5ac4e;
+  height: 20px; }
