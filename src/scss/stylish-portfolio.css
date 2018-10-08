@@ -186,18 +186,6 @@ h6 {
   .menu-toggle:hover {
     background: #343a40; }
 
-.callout {
-  padding: 15rem 0;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("./img/bg-callout.jpg");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover; }
-  .callout h2 {
-    font-size: 3.5rem;
-    font-weight: 700;
-    display: block;
-    max-width: 30rem; }
-
 .portfolio-item {
   display: block;
   position: relative;
@@ -306,5 +294,9 @@ a {
   color: #ecb807 !important; }
 
 .re-about {
+  background-color: #f5ac4e;
+  height: 20px; }
+
+.callout {
   background-color: #f5ac4e;
   height: 20px; }

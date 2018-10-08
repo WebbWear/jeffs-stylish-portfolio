@@ -7,10 +7,9 @@ const portfolioItems = [
     description: "A yellow pencil with envelopes on a clean, blue backdrop!"
   },
   {
-    imgSrc: "./img/portfolio-2.jpg",
-    heading: "Ice Cream",
-    description:
-      "A dark blue background with a colored pencil, a clip, and a tiny ice cream cone!"
+    imgSrc: "./img/lms.png",
+    heading: "Word Press",
+    description:""
   },
   {
     imgSrc: "./img/portfolio-3.jpg",

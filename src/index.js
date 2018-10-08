@@ -11,7 +11,7 @@ import ServicesSections from "./components/services";
 import CalloutSection from "./components/callout";
 import PortfolioSection from "./components/portfolio";
 import CallToAction from "./components/callToAction";
-import MapSection from "./components/map";
+// import MapSection from "./components/map";
 import FooterSection from "./components/footer";
 import ScrollToTop from "./components/scrollToTop";
 
@@ -26,7 +26,7 @@ class App extends React.Component {
         <CalloutSection />
         <PortfolioSection />
         <CallToAction />
-        <MapSection />
+        {/* <MapSection /> */}
         <FooterSection />
         <ScrollToTop />
       </div>
