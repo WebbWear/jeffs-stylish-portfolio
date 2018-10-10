@@ -1,15 +1,15 @@
 import React from "react";
 const socialSites = [
   {
-    link: "https://twitter.com/cincinnaticodes",
-    icon: "icon-social-facebook"
+    link: "https://www.linkedin.com/in/jeff-webb-7123469/",
+    icon: "icon-social-linkedin"
   },
   {
-    link: "https://twitter.com/cincinnaticodes",
+    link: "https://twitter.com/WebbWearInk",
     icon: "icon-social-twitter"
   },
   {
-    link: "https://github.com/cincinnaticodes",
+    link: "https://github.com/WebbWear",
     icon: "icon-social-github"
   }
 ];

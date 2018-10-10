@@ -14,13 +14,13 @@ class Sidebar extends React.Component {
         url: "#top"
       },
       {
-        title: "About",
+        title: "Core Knowledge",
         url: "#about"
       },
-      {
-        title: "Services",
-        url: "#services"
-      },
+      // {
+      //   title: "Services",
+      //   url: "#services"
+      // },
       {
         title: "Portfolio",
         url: "#portfolio"
@@ -48,7 +48,7 @@ class Sidebar extends React.Component {
         <ul className="sidebar-nav">
           <li className="sidebar-brand">
             <a className="js-scroll-trigger" href="#top">
-              Start Bootstrap
+              Jeff Webb
             </a>
           </li>
           {siteNav.map(link => (
