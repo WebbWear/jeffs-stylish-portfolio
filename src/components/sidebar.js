@@ -24,11 +24,11 @@ class Sidebar extends React.Component {
       {
         title: "Portfolio",
         url: "#portfolio"
-      },
-      {
-        title: "Contact",
-        url: "#contact"
       }
+      // {
+      //   title: "Contact",
+      //   url: "#contact"
+      // }
     ];
     return [
       <a
