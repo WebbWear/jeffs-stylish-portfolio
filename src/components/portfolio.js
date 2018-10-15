@@ -1,11 +1,11 @@
 import React from "react";
 import ScrollableAnchor from "react-scrollable-anchor";
 const portfolioItems = [
-  // {
-  //   imgSrc: "./img/portfolio-1.jpg",
-  //   heading: "Stationary",
-  //   description: "A yellow pencil with envelopes on a clean, blue backdrop!"
-  // },
+  {
+    imgSrc: "../img/pcl.png",
+    heading: "Capstone Project",
+    description: "Capstone project from Suncoast Developers Guild"
+  },
   {
     imgSrc: "./img/lms.png",
     heading: "Word Press",
