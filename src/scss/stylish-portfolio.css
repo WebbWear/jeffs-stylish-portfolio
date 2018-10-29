@@ -235,8 +235,11 @@ h6 {
         -webkit-clip-path: inset(2rem);
         clip-path: inset(2rem); } }
 
-.card {
-  width: 50%; }
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 8px;
+  margin: 0.5em; }
 
 footer.footer {
   padding-top: 5rem;

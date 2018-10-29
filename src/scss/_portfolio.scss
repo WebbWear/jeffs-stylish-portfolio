@@ -60,6 +60,10 @@
   }
 }
 
-.card {
-  width: 50%;
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 8px;
+  margin: 0.5em;
+
 }
