@@ -235,6 +235,9 @@ h6 {
         -webkit-clip-path: inset(2rem);
         clip-path: inset(2rem); } }
 
+.card {
+  width: 50%; }
+
 footer.footer {
   padding-top: 5rem;
   padding-bottom: 5rem; }
