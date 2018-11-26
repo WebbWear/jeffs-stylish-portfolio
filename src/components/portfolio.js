@@ -6,7 +6,7 @@ import { Card, CardImg, CardText, CardBody,
   const PortfolioSection = (props) => {
     return (
       <div className="cards">
-        <Card>
+        <span className="card">
           <CardImg top width="100%" src="../img/pcl.png" alt="Card image cap" />
           <CardBody>
             <CardTitle>Capstone Project</CardTitle>
@@ -14,7 +14,7 @@ import { Card, CardImg, CardText, CardBody,
             <CardText>My Capstone project is to solve a communication problem and be able to automated all reminders with my limo company. Using React fronend and Ruby on Rails for the backend. Please alow 30 seconds for servers to fire up.</CardText>
             <Button a href="http://www.palmaceialimo.com/">Link to site</Button>
           </CardBody>
-        </Card>
+        </span>
         <Card>
         <CardImg top width="100%" src="./img/lms.png" alt="Card image cap" />
           <CardBody>

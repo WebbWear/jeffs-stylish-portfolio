@@ -56,14 +56,25 @@
         -webkit-clip-path: inset(2rem);
         clip-path: inset(2rem);
       }
+      
     }
   }
 }
 
-.cards {
+.card {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 8px;
   margin: 0.5em;
+
+}
+
+@media only screen and (max-width: 941px) {
+  .card {
+      background-color: lightgray;
+      grid-template-columns: 1fr;
+      width: 100%;
+  }
+  
 
 }
