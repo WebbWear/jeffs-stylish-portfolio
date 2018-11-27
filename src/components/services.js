@@ -4,7 +4,8 @@ import ScrollableAnchor from "react-scrollable-anchor";
 const ServicesOffered = [
   {
     title: "HTML5",
-    imageUrl : "/img/html5.png"
+    imageUrl: "/img/html5.png",
+    description: "HTML5"
   },
   {
     title: "CSS3",
@@ -49,12 +50,12 @@ const ServicesSections = () => (
               key={`service_${index}`}
             >
               <span className="rounded-circle mx-auto mb-3">
-                <img src={service.imageUrl}/>
+                <img src={service.imageUrl} alt="Web Dev Logo"/>
               </span>
               <h4>
                 <strong>{service.title}</strong>
               </h4>
-              <p className="text-faded mb-0">{service.description}</p>
+              {/* <p className="text-faded mb-0">{service.description}</p> */}
             </div>
           ))}
         </div>
