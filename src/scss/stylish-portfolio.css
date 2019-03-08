@@ -87,21 +87,27 @@ h6 {
   line-height: inherit; }
 
 .masthead {
-  min-height: 30rem;
+  min-height: 58rem;
   position: relative;
   display: table;
   width: 100%;
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("./img/halftone_portrait.jpg");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("./img/halftone_portrait-1.jpg");
+  background-position: top left;
   background-repeat: no-repeat;
   background-size: cover; }
   .masthead h1 {
-    font-size: 4rem;
+    font-size: 6rem;
+    color: white;
+    text-shadow: .25rem .5rem .5rem gray;
     margin: 0;
-    padding: 0; }
-  @media (min-width: 992px) {
+    padding: 0;
+    position: absolute;
+    top: 0;
+    right: .75em; }
+  @media (max-width: 992px) {
     .masthead {
       height: 100vh; }
       .masthead h1 {
@@ -307,7 +313,18 @@ a {
 
 .re-about {
   background-color: #f5ac4e;
-  height: 20px; }
+  height: 6em;
+  padding-top: 1em;
+  padding-bottom: 1em; }
+
+@media (min-width: 992px) {
+  .re-about {
+    height: 1em;
+    align-content: bottom; } }
+
+@media (max-width: 767px) {
+  .re-about {
+    height: 8em; } }
 
 .callout {
   background-color: #f5ac4e;

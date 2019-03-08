@@ -1,5 +1,5 @@
 .masthead {
-  min-height: 30rem;
+  min-height: 58rem;
   position: relative;
   display: table;
   width: 100%;
@@ -11,16 +11,28 @@
       fade-out($white, 0.9) 0%,
       fade-out($white, 0.9) 100%
     ),
-    url("./img/halftone_portrait.jpg");
-  // background-position: center center;
+    url("./img/halftone_portrait-1.jpg");
+  background-position: top left;
   background-repeat: no-repeat;
   background-size: cover;
   h1 {
-    font-size: 4rem;
+    font-size: 6rem;
+    color: white;
+    text-shadow: .25rem .5rem .5rem gray;
     margin: 0;
     padding: 0;
+    position: absolute;
+    top: 0;
+    right: .75em;
   }
-  @media (min-width: 992px) {
+  // @media (min-width: 1200px) {
+  //   height: 100vh;
+  //   h1 {
+  //     font-size: 5.5rem;
+  //   }
+
+// masthead
+  @media (max-width: 992px) {
     height: 100vh;
     h1 {
       font-size: 5.5rem;

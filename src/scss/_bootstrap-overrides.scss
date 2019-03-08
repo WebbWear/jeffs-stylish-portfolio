@@ -55,8 +55,20 @@ a {
 // about page override
 .re-about {
   background-color: rgb(245, 172, 78);
-  height:  20px;
+  height:  6em;
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
+
+// about
+@media (min-width: 992px) {
+  .re-about {
+    height: 1em;
+    align-content: bottom;  } }
+
+@media (max-width: 767px) {
+  .re-about {
+    height: 8em; } }
 
 // about page callout
 .callout {
