@@ -61,14 +61,21 @@ a {
 }
 
 // about
-@media (min-width: 992px) {
+
+@media (min-width: 1310px) {
+  .about-me {
+    display: none;
+  }}
+
+@media (min-width: 1310px) {
   .re-about {
-    height: 1em;
-    align-content: bottom;  } }
+    height: 20em; } }
 
 @media (max-width: 767px) {
   .re-about {
-    height: 8em; } }
+    height: 7.5em;
+    align-content: bottom;  } }
+
 
 // about page callout
 .callout {

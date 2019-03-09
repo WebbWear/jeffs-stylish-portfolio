@@ -7,10 +7,10 @@ const AboutSection = () => (
       <div className="container text-center">
         <div className="row">
           <div className="col-lg-10 mx-auto">
-            <h3 className="mb-5">
-              <em>Hi I’m Jeff Webb a 
+            <h3 className="about-me">
+              <em>"Hi I’m Jeff Webb a 
                   Full stack web developer with
-                  a passion for front end design.</em>
+                  a passion for front end design."</em>
             </h3>
   
           </div>
