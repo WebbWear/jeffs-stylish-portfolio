@@ -41,7 +41,7 @@ const ServicesSections = () => (
     <section className="content-section bg-primary text-white text-center">
       <div className="container">
         <div className="content-section-heading">
-          <h2 className="mb-5">Core Knowledge</h2>
+          <h2 className="mb-1">Core Knowledge</h2>
         </div>
         <div className="row">
           {ServicesOffered.map((service, index) => (

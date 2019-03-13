@@ -13,8 +13,8 @@ body {
   padding: 1.25rem 2.5rem; }
 
 .content-section {
-  padding-top: 7.5rem;
-  padding-bottom: 7.5rem; }
+  padding-top: .5rem;
+  padding-bottom: .5rem; }
 
 .content-section-heading h2 {
   font-size: 3rem; }
@@ -323,7 +323,7 @@ a {
 
 @media (min-width: 1310px) {
   .re-about {
-    height: 20em; } }
+    height: 2em; } }
 
 @media (max-width: 767px) {
   .re-about {
@@ -332,4 +332,4 @@ a {
 
 .callout {
   background-color: #f5ac4e;
-  height: 20px; }
+  height: 2em; }
