@@ -13,8 +13,8 @@ body {
   padding: 1.25rem 2.5rem; }
 
 .content-section {
-  padding-top: .5rem;
-  padding-bottom: .5rem; }
+  padding-top: 7.5rem;
+  padding-bottom: 7.5rem; }
 
 .content-section-heading h2 {
   font-size: 3rem; }
@@ -87,7 +87,7 @@ h6 {
   line-height: inherit; }
 
 .masthead {
-  min-height: 58rem;
+  min-height: 65rem;
   position: relative;
   display: table;
   width: 100%;
