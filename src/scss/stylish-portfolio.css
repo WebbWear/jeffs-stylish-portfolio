@@ -107,11 +107,7 @@ h6 {
     position: absolute;
     top: 0;
     right: .75em; }
-  @media (max-width: 992px) {
-    .masthead {
-      height: 100vh; }
-      .masthead h1 {
-        font-size: 5.5rem; } }
+  
 
 #sidebar-wrapper {
   position: fixed;
@@ -317,6 +313,28 @@ a {
   padding-top: 1em;
   padding-bottom: 1em; }
 
+
+/* media queries */
+
+@media (max-width: 768px) {
+  .masthead {
+    
+      width: 80%; }}
+
+@media (max-width: 992px) {
+  .masthead {
+    height: 50rem;
+    min-height: 5rem; }
+    .masthead h1 {
+      font-size: 5.5rem; } }
+
+@media screen and (max-width: 1460px) {
+  .masthead {
+    background: url("./img/halftone_portrait_768.jpg");
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: cover; } }
+
 @media (min-width: 1310px) {
   .about-me {
     display: none; } }
@@ -327,7 +345,8 @@ a {
 
 @media (max-width: 767px) {
   .re-about {
-    height: 7.5em;
+    font-size: 2em;
+    height: 5em;
     align-content: bottom; } }
 
 .callout {

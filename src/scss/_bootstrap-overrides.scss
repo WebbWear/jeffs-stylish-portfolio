@@ -60,6 +60,24 @@ a {
   padding-bottom: 1em;
 }
 
+// masthead
+
+@media screen and (max-width: 1460px) {  
+  .masthead {
+    background: url("./img/halftone_portrait_768.jpg");
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+// @media screen and (min-width: 725px) {
+//   .background {
+//     content: url(“./img/halftone_portrait-1.jpg”); 
+//   }
+// }
+
+
 // about
 
 @media (min-width: 1310px) {
@@ -73,6 +91,7 @@ a {
 
 @media (max-width: 767px) {
   .re-about {
+    font-size: 2em;
     height: 7.5em;
     align-content: bottom;  } }
 
@@ -80,5 +99,5 @@ a {
 // about page callout
 .callout {
   background-color: rgb(245, 172, 78);
-  height:  2em;
+  height: 2em;
 }

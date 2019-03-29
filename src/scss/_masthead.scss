@@ -33,7 +33,8 @@
 
 // masthead
   @media (max-width: 992px) {
-    height: 100vh;
+    height: 90vh;
+    min-height: 5rem;
     h1 {
       font-size: 5.5rem;
     }
