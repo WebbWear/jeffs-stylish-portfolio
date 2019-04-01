@@ -107,7 +107,15 @@ h6 {
     position: absolute;
     top: 0;
     right: .75em; }
-  
+  @media (max-width: 993px) {
+    .masthead {
+      height: 90vh;
+      min-height: 5rem; }
+      .masthead h1 {
+        font-size: 5.5rem; } }
+  @media screen and (max-width: 1460px) {
+    .masthead .masthead {
+      height: 90vh; } }
 
 #sidebar-wrapper {
   position: fixed;
@@ -314,19 +322,7 @@ a {
   padding-bottom: 1em; }
 
 
-/* media queries */
-
-@media (max-width: 768px) {
-  .masthead {
-    
-      width: 80%; }}
-
-@media (max-width: 992px) {
-  .masthead {
-    height: 50rem;
-    min-height: 5rem; }
-    .masthead h1 {
-      font-size: 5.5rem; } }
+  /* masthead */
 
 @media screen and (max-width: 1460px) {
   .masthead {
@@ -335,20 +331,16 @@ a {
     background-repeat: no-repeat;
     background-size: cover; } }
 
-@media (min-width: 1310px) {
-  .about-me {
-    display: none; } }
 
-@media (min-width: 1310px) {
-  .re-about {
-    height: 2em; } }
 
-@media (max-width: 767px) {
-  .re-about {
-    font-size: 2em;
-    height: 5em;
-    align-content: bottom; } }
+  .container-fluid {
+    padding-right:0;
+            padding-left:0;
+            margin-right:auto;
+            margin-left:auto;
+    
+    background: #f5ac4e;
+    
 
-.callout {
-  background-color: #f5ac4e;
-  height: 2em; }
+}
+  
