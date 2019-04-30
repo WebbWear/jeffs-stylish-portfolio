@@ -74,3 +74,7 @@ React App built by [CincinnatiCodes](http://twitter.com/cincinnaticodes)
 ## Copyright and License
 
 Copyright 2013-2018 Blackrock Digital LLC. Code released under the [MIT](https://github.com/cincinnaticodes/react-stylish-portfolio/blob/gh-pages/LICENSE) license.
+
+
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/3ca5bd8f-176f-4688-af8a-3d4bd044316c/deploy-status)](https://app.netlify.com/sites/condescending-jepsen-b5d6ba/deploys)
